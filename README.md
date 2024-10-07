@@ -21,7 +21,7 @@ The API follows **RESTful standards** and is built with a focus on **scalability
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/your-username/weather-api.git
+git clone https://github.com/emailvenkatm/weather-api-assignment.git
 cd weather-api
 ```
 ### 2. Install Dependencies
@@ -34,7 +34,7 @@ npm install
 
 ### 3. Set Up Environment Variables
 
-Create a `.env` file in the root of the project and add your **OpenWeather API key**:
+Create a `.env` file in the root of the project and add  **OpenWeather API key**:
 
 ```bash
 # .env
@@ -109,11 +109,11 @@ To check code coverage, run the following command:
 npm run test -- --coverage
 ```
 
-These commands will execute all the unit tests and generate a coverage report, ensuring that your code is properly tested.
+These commands will execute all the unit tests and generate a coverage report, ensuring that code is properly tested.
 
 ### 6. Making Improvements (Future)
 
-You can refer to the **Future Improvements** section in the README for additional features you can implement to scale, improve error handling, or optimize performance. Some examples include:
+Here are some potential improvements that could further enhance the project.
 
 - **Caching**: Implement Redis-based caching to replace in-memory caching.
 - **Rate Limiting**: Add more sophisticated rate-limiting strategies.
